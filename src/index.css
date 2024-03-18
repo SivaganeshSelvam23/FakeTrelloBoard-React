@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Vertical scrollbar */
+::-webkit-scrollbar {
+  width: 5px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2254dc;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #010f0a;
+}
+
+/* Horizontal scrollbar */
+::-webkit-scrollbar:horizontal {
+  height: 15px; /* Adjust the height as needed */
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #2254dc;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track:horizontal {
+  background-color: #010f0a;
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+  background-color: #6554c0;
+} */
